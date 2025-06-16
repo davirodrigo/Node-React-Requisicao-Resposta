@@ -19,5 +19,4 @@ model Users {
   nome  String? 
   email String? @unique
   idade String?
-  personalidade String?
 }

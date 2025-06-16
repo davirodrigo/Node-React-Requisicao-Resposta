@@ -37,12 +37,17 @@ npm install express = servidor que vai rodar o código
 */
 
 import express from 'express';
-import { PrismaClient } from '@prisma/client';
+import cors from 'cors';
+import pkg from '@prisma/client';
+const { PrismaClient } = pkg;
 const app = express(); 
+
+app.use(cors());
+
 const prisma = new PrismaClient( );
 
 app.use(express.json());
- 
+app.use 
 app.post('/usuarios',async(req, res)=>{
     await prisma.users.create({
         data:{
