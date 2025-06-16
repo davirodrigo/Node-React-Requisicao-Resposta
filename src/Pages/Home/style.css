@@ -1,0 +1,81 @@
+.GeneralScope{
+  display: flex;
+  flex-direction:row;
+  justify-content:space-between;
+  border-radius: 5px;
+  background-color: #A5BEFA;
+  margin-top: 20px;
+  width: 30%;
+  padding:10px
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: center;
+  padding-top:100px;
+  padding-bottom:100px;
+}
+.Formulario input{
+  width: 90%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  background-color:#1B98E0;
+  border: none;
+  text-align: center;
+}
+.Formulario input::placeholder{
+  color:#434343;
+  font-style:italic;
+  font-size: 14px;
+}
+button{
+  display: flex;
+  justify-content: center;
+  width: 90% ;
+  padding:15px;
+  margin-top: 10px;
+  cursor:pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #FFF1D0;
+  color:#434343
+}
+
+.img{
+  width:30px;
+  height:30px;
+  background: transparent;
+}
+.InsertData{
+  overflow:hidden;
+  color:#434343;
+}
+.FormLabel{
+  border-radius: 9px;
+  background-color:#248BA0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 30%;
+  padding:50px;
+}
+.Formulario{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Formulario h1{
+  text-align: center;
+}
+.DeleteButton{
+  border:2px solid black;
+}
+.DeleteButton:hover{
+   box-shadow: 2px 7px 7px 2px rgba(0,0,0,0.5);
+   opacity: .90;
+}
